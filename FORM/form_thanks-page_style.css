@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+.header{
+    height: 14vh;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    background-color: #1756CC;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.container__header{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    padding: 40px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.logo img{
+    width: 180px;
+}
+
+/*PORTADA - COVER*/
+
+main{
+  width: 80%;
+  max-width: 1200px;
+  height: auto;
+  
+  padding: 20px;
+  margin: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  
+  
+}
+
+.container_form{
+  position: center;
+  margin: auto;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid gainsboro;
+  border-radius: 1em;
+  background-color: #2e2e30;
+  box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.checkbox{
+  position: relative;
+  height: 125px;
+  width: 125px;
+  display: inline-block;
+  border: 4px solid rgb(247, 243, 243);
+  border-radius: 50%;
+  border-color: #5cb85c;
+}
+
+.check-icon::before{
+  position: absolute;
+  display: none;
+}
+.check-icon::after{
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 28px;
+  transform: scaleX(-1) rotate(135deg);
+  height: 56px;
+  width: 28px;
+  border-top: 6px solid #5cb85c;
+  border-right: 6px solid #5cb85c;
+  transform-origin: left top;
+  animation: check-icon 3s ease;
+  
+}
+
+@keyframes check-icon {
+  0%{
+    height: 0;
+    width: 0;
+    opacity: 1;
+  }
+  20%{
+    height: 0;
+    width: 28px;
+    opacity: 1;
+  }
+  40%{
+    height: 56px;
+    width: 28px;
+    opacity: 1;
+  }
+  100%{
+    height: 56px;
+    width: 28px;
+    opacity: 1;
+  }
+}
+ 
+
+  
+footer{
+    width: 100vw;
+    height: 100%;
+    padding-top: 1rem;
+    margin: 20vh, 20vh;
+    display: inline;
+    align-items: left;
+    
+   
+  
+}
+
+#api {
+  background-color: #1756CC;
+  border: 2px solid #1756CC;
+  border-radius: 3px;
+
+}
+
+#publicidad {
+  background-color: #1756CC;
+  border-bottom: 1px solid azure;
+  color: azure;
+  margin-bottom: 20px;
+  
+}
+#publicidad h1 {
+  font-size: 100%;
+  text-align: center;
+}
+#publicidad h2 {
+  font-size: 30px;
+  padding: 0.3rem;
+  text-align: center;
+}
+
+
+.api-json{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+
+
+
+.producto{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 200px;
+  margin:20px;
+  text-align: center;
+  background-color: #1756CC;
+  color: azure;
+  align-self: flex-start;
+  flex-shrink: initial;
+
+}
+
+.producto:hover{
+    scale: 1.1;
+}
+
+.producto h3 {
+  font-size: 12px;
+}
+.producto img{
+  width: 100%;
+  height: 200px;
+  max-width: 400px;
+  object-fit: fill;
+  border-radius: 0rem;
+  
+}
+
+.producto button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: azure;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.producto button:hover {
+  opacity: 0.7;
+}
+
+
