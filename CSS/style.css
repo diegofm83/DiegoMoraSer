@@ -17,7 +17,7 @@ body{
     padding-top: 40px;
     padding-bottom: 40px;
 
-    background-color: #1756CC;
+    background-color: #FFEBE0;
     display: flex;
     justify-content: center;
 }
@@ -37,7 +37,7 @@ body{
     padding-bottom: 40px;
     background-image : url(../ASSETS/pexels-anna-shvets-5262957.jpg);
     background-repeat: no-repeat;
-    background-color: #1756CC;
+    background-color: #FFEBE0;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -52,7 +52,7 @@ nav {
     
    
     text-transform: capitalize;
-    color: rgba(228, 214, 214, 0.986) ;
+    color: rgb(27, 26, 26) ;
     font-size: 20px;
 
     display: flex;
@@ -63,8 +63,8 @@ nav {
 }
 
 .nav-enlace{ 
-    background-color: #1756CC;
-    color: rgba(228, 214, 214, 0.986);
+    background-color: #FFEBE0;
+    color: rgb(27, 26, 26);
     font-size: 30px;
     text-decoration: none;
     display: inline-flex;
@@ -98,7 +98,7 @@ nav {
 .pie-pagina{
     width: 100%;
 
-    background-color: #1756CC;
+    background-color: #FFEBE0;
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -120,13 +120,13 @@ nav {
     width: 250px;
 }
 .pie-pagina .grupo-1 .box h2{
-    color: #fff;
+    color: rgb(27, 26, 26);
     margin-bottom: 25px;
     font-size: 20px;
     text-align: center;
 }
 .pie-pagina .grupo-1 .box p{
-    color: #efefef;
+    color: #1f1d1d;
     margin-bottom: 10px;
 }
 
@@ -141,9 +141,9 @@ nav {
     width: 45px;
     height: 45px;
     line-height: 45px;
-    color: #fff;
+    color: rgb(27, 26, 26);
     margin-right: 10px;
-    background-color: #1756CC;
+    background-color: #FFEBE0;
     text-align: center;
     transition: all 300ms ease;
 }
@@ -151,10 +151,10 @@ nav {
     color: #75757a;
 }
 .pie-pagina .grupo-2{
-    background-color: #1756CC;
+    background-color: #FFEBE0;
     padding: 15px 10px;
     text-align: center;
-    color: #fff;
+    color: rgb(27, 26, 26);
 }
 .pie-pagina .grupo-2 small{
     font-size: 15px;

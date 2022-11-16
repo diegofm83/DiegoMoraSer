@@ -1,14 +1,14 @@
 *{
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #1756CC;
-    color: azure;
+    background-color: #FFEBE0;
+    color: rgb(27, 26, 26);
 }
 
 body{
     display: flex;
     flex-direction: column;
-    background-color: #1756CC;
+    background-color: #FFEBE0;
     
 
 }
@@ -17,14 +17,14 @@ body{
     width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #1756CC;
+    background-color: #FFEBE0;
     display: flex;
     justify-content: center;
 }
 
 .Retroceso {
     position: absolute;
-    color: azure;
+    color: rgb(27, 26, 26);
     left:50px;
 }
 
@@ -36,11 +36,11 @@ body{
 /*:::::Main*/
 h1{
     text-align: center;
-    color: azure;
+    color: rgb(27, 26, 26);
 }
 
 .linea{
-    background-color: azure;
+    background-color: rgb(27, 26, 26);
     height: 5px;
     width: 100%;
     display: block;
@@ -61,7 +61,7 @@ h1{
     display: block;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 0 6px rgba( 0,0,0, .5);
+    box-shadow: 0 0 6px rgb(27, 26, 26);
 
 }
 
@@ -88,7 +88,7 @@ h1{
 .pie-pagina{
     width: 100%;
 
-    background-color: #4040e6;
+    background-color: #FFEBE0;
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -110,13 +110,13 @@ h1{
     width: 250px;
 }
 .pie-pagina .grupo-1 .box h2{
-    color: #fff;
+    color: rgb(27, 26, 26);
     margin-bottom: 25px;
     font-size: 20px;
     text-align: center;
 }
 .pie-pagina .grupo-1 .box p{
-    color: #efefef;
+    color: rgb(27, 26, 26);
     margin-bottom: 10px;
 }
 
@@ -131,20 +131,20 @@ h1{
     width: 45px;
     height: 45px;
     line-height: 45px;
-    color: #fff;
+    color: rgb(27, 26, 26);
     margin-right: 10px;
-    background-color: #4040e6;
+    background-color: #FFEBE0;
     text-align: center;
     transition: all 300ms ease;
 }
 .pie-pagina .grupo-1 .red-social a:hover{
-    color: #75757a;
+    color: #414144;
 }
 .pie-pagina .grupo-2{
-    background-color: #4040e6;
+    background-color: #FFEBE0;
     padding: 15px 10px;
     text-align: center;
-    color: #fff;
+    color: rgb(27, 26, 26);
 }
 .pie-pagina .grupo-2 small{
     font-size: 15px;
